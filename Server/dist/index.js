@@ -11,6 +11,9 @@ const PORT = process.env.PORT || 3000;
 app.get('/', (req, res) => {
     res.send('Hello, TypeScript Server!');
 });
+app.get('/api/v1/users', (req, res) => {
+    res.send('api v1 - users in 100');
+});
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
