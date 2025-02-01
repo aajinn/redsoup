@@ -1,11 +1,14 @@
-import Image from "next/image";
+import Extra from "@/components/Chat";
+import Main from "@/components/Main";
+import Side from "@/components/Side";
+
 
 export default function Home() {
   return (
-  <div>
-<h1 className="">
-  My app
-</h1>
+  <div className="flex ">
+<Side/>
+<Main/>
+<Extra/>
   </div>
   );
 }
