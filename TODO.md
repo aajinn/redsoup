@@ -1,5 +1,5 @@
 # todos
 
-# 02-02-25
+# 08-02-25
 
-1. add user auth - ()
+1. add project management (create , delete , edit)
