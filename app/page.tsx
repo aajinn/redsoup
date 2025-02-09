@@ -1,8 +1,8 @@
 "use client";
-import Extra from "@/components/Chat";
+import Extra from "@/components/layout/Chat";
 import GoogleSignIn from "@/components/auth/GoogleSignIn";
-import Main from "@/components/Main";
-import Side from "@/components/Side";
+import Main from "@/components/layout/Main";
+import Side from "@/components/layout/Side";
 import { useAuth } from "@/context/AuthContext";
 
 

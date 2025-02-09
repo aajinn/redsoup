@@ -1,6 +1,6 @@
 import React from 'react'
 import { useAuth } from "@/context/AuthContext";
-import GoogleSignOut from './auth/GoogleSigInOut';
+import GoogleSignOut from '../auth/GoogleSigInOut';
 function Side() {
   const { user } = useAuth();
 
